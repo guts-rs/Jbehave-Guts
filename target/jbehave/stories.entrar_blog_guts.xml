@@ -1,0 +1,13 @@
+<story path="stories/entrar_blog_guts.story" title="Acessar Twitter">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">poder me logar</inOrderTo>
+  <asA keyword="As a">usuario</asA>
+  <iWantTo keyword="I want to">desejo ter uma p&#225;gina em que possa eftuar login</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Acessar a p&#225;gina do Guts">
+<step outcome="successful">Given acessei a pagina de login do Twitter</step>
+<step outcome="successful">And inseri um usu&#225;rio e senha validos</step>
+<step outcome="successful">When clicar em login</step>
+<step outcome="pending" keyword="PENDING">Then devo estar logado no twitter</step>
+</scenario>
+</story>
